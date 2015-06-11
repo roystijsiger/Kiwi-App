@@ -1,31 +1,32 @@
 ﻿using System;
 using System.Net.Http;
 using Xamarin.Forms;
+using System.Threading.Tasks;
+using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace RoughKiwiApp
 {
-	
+
 	public class App : Application
 	{
 		public App ()
 		{
 			// The root page of your application
-			MainPage = new ContentPage {
-				Content = new StackLayout {
-					VerticalOptions = LayoutOptions.Center,
-					Children = {
-						new Label {
-							XAlign = TextAlignment.Center,
-							Text = "Welcome to Xamarin Forms!"
-						}
-					}
-				}
-			};
+			MainPage = new MainXaml();
+			_listView = MainPage.FindByName<ListView> ("listviewProducts");
 		}
 
-		protected override void OnStart ()
+		private async Task<IEnumerable<Product>> GetListviewFromTheApi(){
+			var contentTask = _client.GetAsync(_url);
+			var content = await contentTask;
+			var jsonReturn = await content.Content.ReadAsStringAsync ();
+			return JsonConvert.DeserializeObject<IEnumerable<Product>>(jsonReturn);
+		}
+		protected override async void OnStart ()
 		{
 			// Handle when your app starts
+			_listView.ItemsSource = await GetListviewFromTheApi();
 		}
 
 		protected override void OnSleep ()
@@ -44,10 +45,10 @@ namespace RoughKiwiApp
 
 	}
 
-	public class Fruit{
+	public class Product{
 		public int Id{get; set;}
 		public string Name{get; set;}
-		public string Color{get; set;}
+		public float Price{get; set;}
 	}
 }
 
