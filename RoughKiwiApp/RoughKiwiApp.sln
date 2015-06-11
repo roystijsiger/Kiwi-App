@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoughKiwiApp", "RoughKiwiApp\RoughKiwiApp.csproj", "{A5040CC6-6A2F-4D32-A6BE-412B1FD669BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoughKiwiApp.Droid", "Droid\RoughKiwiApp.Droid.csproj", "{7D0E7D4D-5CDB-4FF5-83D4-DEC2BBD3F9D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoughKiwiApp.UITests", "UITests\RoughKiwiApp.UITests.csproj", "{44B4449E-99BE-48E1-AF05-A780C5CF7715}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44B4449E-99BE-48E1-AF05-A780C5CF7715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B4449E-99BE-48E1-AF05-A780C5CF7715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B4449E-99BE-48E1-AF05-A780C5CF7715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B4449E-99BE-48E1-AF05-A780C5CF7715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D0E7D4D-5CDB-4FF5-83D4-DEC2BBD3F9D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0E7D4D-5CDB-4FF5-83D4-DEC2BBD3F9D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0E7D4D-5CDB-4FF5-83D4-DEC2BBD3F9D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0E7D4D-5CDB-4FF5-83D4-DEC2BBD3F9D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5040CC6-6A2F-4D32-A6BE-412B1FD669BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5040CC6-6A2F-4D32-A6BE-412B1FD669BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5040CC6-6A2F-4D32-A6BE-412B1FD669BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5040CC6-6A2F-4D32-A6BE-412B1FD669BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
