@@ -1,1 +1,1 @@
-﻿<Properties StartupItem="RoughKiwiApp\RoughKiwiApp.csproj" />
+﻿<Properties StartupItem="Droid\RoughKiwiApp.Droid.csproj" GitUserInfo="UsingGIT" />
