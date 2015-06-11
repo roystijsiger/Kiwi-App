@@ -18,7 +18,7 @@ namespace RoughKiwiApp
 		}
 
 		private async Task<IEnumerable<Product>> GetListviewFromTheApi(){
-			var contentTask = _client.GetAsync (_url);
+			var contentTask = _client.GetAsync(_url);
 			var content = await contentTask;
 			var jsonReturn = await content.Content.ReadAsStringAsync ();
 			return JsonConvert.DeserializeObject<IEnumerable<Product>>(jsonReturn);
@@ -48,7 +48,7 @@ namespace RoughKiwiApp
 	public class Product{
 		public int Id{get; set;}
 		public string Name{get; set;}
-		public int Price{get; set;}
+		public float Price{get; set;}
 	}
 }
 
