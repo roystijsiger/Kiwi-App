@@ -43,12 +43,6 @@ namespace RoughKiwiApp
 		private static string _url = "http://10.10.35.24/api/products";
 		private ListView _listView;
 
-	}
-
-	public class Product{
-		public int Id{get; set;}
-		public string Name{get; set;}
-		public float Price{get; set;}
-	}
+	}		
 }
 
