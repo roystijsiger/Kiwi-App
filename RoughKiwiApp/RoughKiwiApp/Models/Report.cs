@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Lisa.Kiwi.WebApi
+namespace RoughKiwiApp
 {
     public class Report
     {
