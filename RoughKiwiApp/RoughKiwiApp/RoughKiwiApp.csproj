@@ -36,7 +36,13 @@
       <DependentUpon>MainXaml.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\AnonymousLogin.cs" />
+    <Compile Include="Models\Contact.cs" />
+    <Compile Include="Models\Location.cs" />
+    <Compile Include="Models\Perpetrator.cs" />
     <Compile Include="Models\Report.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\Vehicle.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
