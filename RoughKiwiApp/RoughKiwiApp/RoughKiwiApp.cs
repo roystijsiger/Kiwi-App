@@ -40,9 +40,9 @@ namespace RoughKiwiApp
 		}
 
 		private HttpClient _client = new HttpClient();
-		private static string _url = "http://10.10.35.24/api/products";
+		private static string _url = "http://10.10.35.24/reports/";
 		private ListView _listView;
 
 	}		
 }
-
+	
