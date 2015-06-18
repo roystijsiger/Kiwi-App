@@ -21,7 +21,7 @@ namespace RoughKiwiApp
 			var contentTask = _client.GetAsync(_url);
 			var content = await contentTask;
 			var jsonReturn = await content.Content.ReadAsStringAsync ();
-			return JsonConvert.DeserializeObject<IEnumerable<Product>>(jsonReturn);
+			return JsonConvert.DeserializeObject<IEnumerable<Report>>(jsonReturn);
 		}
 		protected override async void OnStart ()
 		{

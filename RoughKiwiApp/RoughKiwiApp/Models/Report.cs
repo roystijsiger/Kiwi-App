@@ -39,10 +39,10 @@ namespace RoughKiwiApp
 		public DateTime? DateOfTheft { get; set; }
 
 
-		public virtual LocationData Location { get; set; }
-		public virtual PerpetratorData Perpetrator { get; set; }
-		public virtual ContactData Contact { get; set; }
-		public virtual VehicleData Vehicle { get; set; }
+		//public virtual LocationData Location { get; set; }
+		//public virtual PerpetratorData Perpetrator { get; set; }
+		//public virtual ContactData Contact { get; set; }
+		//public virtual VehicleData Vehicle { get; set; }
 	}
 }
 
