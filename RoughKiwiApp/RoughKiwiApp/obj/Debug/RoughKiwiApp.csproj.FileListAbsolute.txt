@@ -16,3 +16,4 @@ C:\Users\Roy\Documents\Kiwi-App\RoughKiwiApp\RoughKiwiApp\obj\Debug\RoughKiwiApp
 C:\Users\Roy\Documents\Kiwi-App\RoughKiwiApp\RoughKiwiApp\obj\Debug\RoughKiwiApp.pdb
 C:\Users\Roy\Documents\Kiwi-App\RoughKiwiApp\RoughKiwiApp\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Roy\Documents\Kiwi-App\RoughKiwiApp\RoughKiwiApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Roy\Documents\Kiwi-App\RoughKiwiApp\RoughKiwiApp\obj\Debug\RoughKiwiApp.csproj.App.config
