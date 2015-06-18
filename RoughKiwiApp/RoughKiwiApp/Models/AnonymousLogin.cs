@@ -1,4 +1,4 @@
-﻿namespace Lisa.Kiwi.WebApi
+﻿namespace RoughKiwiApp
 {
     public class AnonymousLogin
     {
